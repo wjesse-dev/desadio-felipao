@@ -1,15 +1,24 @@
-## crie uma variavel para armazenar o nome e a quantidade de experiencia (xp) de um heroi,
-depois utilize uma estruta de decisão para apresentar algumas das mensagens.a
+let nome = nome ;
+let xp = 0;
 
-se o xp for menor que 1000 é = ferro 
-se o xp for entre 1000 e  2000 = ferro 
-se o xp for entre 2000 e 5000 = ferro 
-se o xp for entre 5000 e 7000 = ferro 
-se o xp for entre 7000 e 8000= ferro 
-se o xp for entre 8000 e 9000= ferro 
-se o xp for entre  9000 e 10000= ferro 
-se o xp for maior o igual 10001= ferro
+{
 
-## saida o heroi de nome () está no nivel ()
+if (xp < 1000){
+    console.log(" o heroi de nome " + {nome} "está no nivel de ferro ");
+} else if ( xp >= 1001 ) && ( xp <= 2000){
+    
+    console.log(" o heroi de nome " + {nome} "está no nivel de prata ");
+    
+        } else if ( xp >= 2001) && ( xp <= 5000){
+            
+            console.log("o heroi de nome " + {nome} "está no nivel de ouro ");
 
-console.log( "saida o heroi de nome () está no nivel () " )
+                    }else if ( xp >= 5001) && ( xp <= 7000){
+            
+                          console.log("o heroi de nome " + {nome} "está no nivel de Diamante ");
+
+                    }else {
+                        console.log (" Nivel não definido ")
+                    }
+
+}
